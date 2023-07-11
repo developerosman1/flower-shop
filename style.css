@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Shared Items */
+.primary-btn {
+    background-color: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0;
+}
+
+.fancy-text {
+    color: #E55473;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 18px;
+    color: #7C7778;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #FCEEF1;
+    display: flex;
+    padding: 100px 150px 0 150px;
+    gap: 50px;
+    align-items: center;
+}
+
+.banner .banner-image img {
+    width: 500px;
+    height: 600px;
+}
+
+.banner-image {
+    max-height: 600px;
+}
+
+.banner .banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.banner-text {
+    font-size: 18px;
+    color: #7C7778;
+    margin-bottom: 50px;
+}
+
+/* Feature Section */
+.feature {
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.feature-section {
+    padding: 100px 0px 0 0px;
+}
+
+.feature-gallery {
+    display: flex;
+    gap: 24px;
+
+}
+
+.feature-flower-image {
+    padding: 100px 40px 0 40px;
+    width: 320px;
+    height: 400px;
+}
+
+.feature-gallery img {
+    width: 290px;
+    height: 400px;
+}
+
+.first-item {
+    background-color: #F2DEE7;
+    border-radius: 200px 200px 0 0;
+    text-align: center;
+}
+
+.second-item {
+    background-color: #D9EFF1;
+    border-radius: 200px 200px 0 0;
+    text-align: center;
+}
+
+.third-item {
+    background-color: #E3EBDB;
+    border-radius: 200px 200px 0 0;
+    text-align: center;
+}
+
+.feature-flower-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Our Speciality */
+.our-speciality {
+    display: flex;
+    justify-content: center;
+    width: 1240px;
+    margin: 100px auto;
+    background-color: #FCEEF1;
+}
+
+.speciality-section {
+    display: flex;
+    gap: 80px;
+    padding: 86px 175px;
+    text-align: center;
+}
+
+.speciality .special-title {
+    font-size: 18px;
+    color: #7C7778;
+    margin-top: 20px;
+}
+
+/* Hot Deal Section */
+.hot-deal {
+    background-color: #FCEEF1;
+}
+
+.hot-deal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.hot-deal-title {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.hot-deal-image img {
+    width: 250px;
+    height: 320px;
+}
+
+.center-btn {
+    text-align: center;
+}
+
+/* Instagram Section */
+.instagram {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.flower-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 350px;
+}
+/* About Us Section */
+.about-us-section{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.about-us-image{
+    width: 600px;
+    height: 450px;
+}
+.about-section{
+    background-color: #FCEEF1;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+.about-us-section-image{
+    max-height: 450px;
+}
+/* Subscribe Section */
+.subscribe {
+    width: 1240px;
+    margin: 0 auto;
+    background-image: url("/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    margin-bottom: 100px;
+}
+.form-section{
+    text-align: center;
+}
+.form-section input[type="email"]{
+    padding: 21px;
+    width: 700px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    margin-right: 10px;
+}
+/* Footer Section */
+.footer {
+    background: #000;
+}
+
+.footer-content {
+    width: 625px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 48px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #7C7778;
+    text-align: center;
+}
